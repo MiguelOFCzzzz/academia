@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitManager | Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dashboard-body">
+
+    <aside class="sidebar">
+        <h2>FIT<span>MANAGER</span></h2>
+
+        <nav>
+            <a href="dashboard.html" class="active">Dashboard</a>
+            <a href="#">Alunos</a>
+            <a href="#">Planos</a>
+            <a href="#">Matrículas</a>
+            <a href="#">Pagamentos</a>
+            <a href="#">Frequência</a>
+            <a href="#">Treinos</a>
+        </nav>
+
+        <a href="index.html" class="logout">Sair da conta</a>
+    </aside>
+
+    <main class="dashboard-main">
+
+        <header class="dashboard-header">
+            <div>
+                <h1>Dashboard</h1>
+                <p>Bem-vindo ao painel de gerenciamento.</p>
+            </div>
+
+            <div class="admin-profile">
+                <div class="profile-avatar">A</div>
+                <div>
+                    <strong>Administrador</strong>
+                    <small>Gestor da academia</small>
+                </div>
+            </div>
+        </header>
+
+        <section class="welcome">
+            <div>
+                <h2>Olá, administrador!</h2>
+                <p>Acompanhe os principais indicadores da sua academia.</p>
+            </div>
+        </section>
+
+        <section class="stats">
+
+            <div class="stat-card">
+                <span>Total de alunos</span>
+                <h2>248</h2>
+                <small>Alunos cadastrados</small>
+            </div>
+
+            <div class="stat-card">
+                <span>Matrículas ativas</span>
+                <h2>186</h2>
+                <small>Planos em andamento</small>
+            </div>
+
+            <div class="stat-card">
+                <span>Faturamento mensal</span>
+                <h2>R$ 18.450</h2>
+                <small>Valores ilustrativos</small>
+            </div>
+
+            <div class="stat-card">
+                <span>Frequência hoje</span>
+                <h2>72</h2>
+                <small>Entradas registradas</small>
+            </div>
+
+        </section>
+
+        <section class="dashboard-content">
+
+            <div class="panel">
+                <div class="panel-header">
+                    <h3>Últimos alunos</h3>
+                    <a href="#">Ver todos</a>
+                </div>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Aluno</th>
+                            <th>Plano</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Lucas Ferreira</td>
+                            <td>Premium</td>
+                            <td><span class="status active-status">Ativo</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>Mariana Costa</td>
+                            <td>Mensal</td>
+                            <td><span class="status active-status">Ativo</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>Pedro Henrique</td>
+                            <td>Trimestral</td>
+                            <td><span class="status pending-status">Pendente</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>Ana Clara</td>
+                            <td>Premium</td>
+                            <td><span class="status active-status">Ativo</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="panel">
+                <div class="panel-header">
+                    <h3>Resumo da academia</h3>
+                </div>
+
+                <div class="summary-item">
+                    <span>Alunos ativos</span>
+                    <strong>186</strong>
+                </div>
+
+                <div class="summary-item">
+                    <span>Alunos inativos</span>
+                    <strong>42</strong>
+                </div>
+
+                <div class="summary-item">
+                    <span>Pagamentos pendentes</span>
+                    <strong>15</strong>
+                </div>
+
+                <div class="summary-item">
+                    <span>Novas matrículas</span>
+                    <strong>23</strong>
+                </div>
+            </div>
+
+        </section>
+
+        <footer>
+            FitManager © 2026 - Sistema de Gestão de Academia
+        </footer>
+
+    </main>
+
+</body>
+</html>
